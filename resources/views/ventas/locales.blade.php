@@ -36,15 +36,10 @@
         @method('PUT')
         @csrf
 
-        <div class="row">
-        
-            <div class="col-2"></div>
-            
-            <div class="col-8">
 
             <div class="row mt-3 mb-2">
 
-                <div class="col ml-5">
+                <div class="col">
                     <input type="date" name="desde" class="form-control form-control-sm" value="{{ $desde}}">
                 </div>
 
@@ -64,11 +59,6 @@
 
             </div>
 
-            </div>    
-                    
-            <div class="col-8">
-            
-        </div>
         
     </form>
 </header>
@@ -76,16 +66,7 @@
 
 @if ($ventasPropios)
             
-    <div class="main">
-
-    <div class="row">
-        
-    <div class="col-2"></div>
-
-    <div class="col-8">
-
-
-    
+ 
     
 
 
@@ -159,14 +140,7 @@
         
         </div>
 
-    </div>
-    
-    <div class="col-2"></div>
-
-    </div>        
-
-    </div>
-                
+               
 
 
 @endif

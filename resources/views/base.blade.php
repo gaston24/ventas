@@ -29,6 +29,7 @@
     </div>
 
     <script type="text/javascript" src="{{ url('/') }}/public/js/jquery-3.4.1.min.js" ></script>
+    <script type="text/javascript" src="{{ url('/') }}/public/js/bootstrap.bundle.min.js" ></script>
     
     <script type="text/javascript" src="{{ url('/') }}/public/js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="{{ url('/') }}/public/js/jquery.dataTables.min.js"></script>

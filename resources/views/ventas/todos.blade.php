@@ -35,14 +35,7 @@
         
         @method('PUT')
         @csrf
-
-
-        <div class="row">
-        
-        <div class="col-2"></div>
-        
-        <div class="col-8">
-            
+           
 
         
         
@@ -66,13 +59,6 @@
         </div>
 
 
-
-        </div>    
-            
-        <div class="col-8">
-            
-        </div>
-
         
         
     </form>
@@ -81,17 +67,6 @@
 
 @if ($ventasTodos)
             
-    <div class="main">
-
-    <div class="row">
-        
-    <div class="col-2"></div>
-
-    <div class="col-8">
-
-
-    
-    
 
 
     <div class="table-responsive">
@@ -163,15 +138,6 @@
             </table>
         
         </div>
-
-    </div>
-    
-    <div class="col-2"></div>
-
-    </div>        
-
-    </div>
-                
 
 
 @endif

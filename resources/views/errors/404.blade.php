@@ -21,7 +21,7 @@
                         error 404 | Pagina no encontrada
                     </h1>
                     <div>
-                        <img src="{{ url('/') }}/img/404.gif" class="img-fluid" alt="not found">
+                        <img src="{{ url('/') }}/public/img/404.gif" class="img-fluid" alt="not found">
                     </div>
                 </div>
                 <div class="col-2"></div>
