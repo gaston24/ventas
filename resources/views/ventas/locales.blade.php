@@ -68,21 +68,22 @@
             
  
     
-
-
+<div class="row">
+    <div class="col-lg-12">
     <div class="table-responsive">
-        
-        
-        <table id="tablaVentas" class="table table-bordered table-striped dt-responsive" style="width:100%">
+    <table id="tablaVentas" class="display table-striped table-bordered table-sm" style="width:100%">
             
             <thead>
-                <td class="col-"><h4 id="headNum">NUM</h4></td>
+                <tr>
 
-				<td class="col-"><h4 id="headSuc">SUCURSAL</h4></td>
-				
-				<td class="col-"><h4 id="headCantComp">CANT_COMP</h4></td>
-		
-                <td class="col-"><h4 id="headImporte">IMPORTE</h4></td>
+                    <td class="col-"><h4 id="headNum">NUM</h4></td>
+                    
+                    <td class="col-"><h4 id="headSuc">SUCURSAL</h4></td>
+                    
+                    <td class="col-"><h4 id="headCantComp">CANT_COMP</h4></td>
+                    
+                    <td class="col-"><h4 id="headImporte">IMPORTE</h4></td>
+                </tr>
                 
             </thead>
             
@@ -138,6 +139,8 @@
                 
             </table>
         
+        </div>
+        </div>
         </div>
 
                
